@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel = "stylesheet" href = "login.css">
+</head>
+<body>
+
+    <section class="center">
+        <div class="header">
+            <h1>
+                <a href = "login.html" class = "logo" >
+                    <span class = "service-name">LOGIN SERVICE</span>
+                </a>
+            </h1>
+        </div>
+        <div class="form-wrap">
+            
+            <div class="user-info">
+                <form class="user-info-form"><!--아이디 비밀번호 로그인버튼-->
+                    <input class = "id" type="text" placeholder="아이디" />
+                    <input class = "pwd" type="password" placeholder="비밀번호"/>
+                    <input class="login-Btn"type = "button" value="로그인">
+                    <div>
+                        <div class="check-box-form">
+                            <div class="id-check-box-form">
+                                <label>ID 저장<input class="save-ID" type = "checkbox"/></label>
+                            </div>
+                            <span class="bar">|</span>
+                            <div class="pwd-check-box-form">
+                                <label>PWD 숨기기<input class="hide-PWD" type = "checkbox" checked onclick="checkedHP()"/></label>
+                            </div>
+                        </div>
+                        <div class = "abs-Btn">
+                            <span class="abs-ps-box">
+                                <label><input class="sign-up" type = "button" value="회원가입"></label>
+                                <label><input class="find-info" type = "button" value="계정찾기"></label>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+    <script src = "login.js"></script>
+</body>
+</html>
