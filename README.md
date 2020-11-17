@@ -71,6 +71,6 @@
 ### Shortcomings :
   
   
- 1. I felt a limitation in that I could not directly implement the DB on the server because I used the localstorage on Browser.
+ 1. I felt a limitation in that I could not directly implement the DB(user-info) on the server because I used the localstorage on Browser.
  
- 2. While trying to add a mobile phone authentication or e-mail authentication function in the process of finding ID,PWD, it failed
+ 2. While trying to add a mobile phone or e-mail authentication function in the process of finding user-ID,PWD, it failed
