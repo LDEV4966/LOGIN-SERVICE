@@ -1,0 +1,94 @@
+body{
+    width: 100%;
+    height: 100%;
+    background:#f5f6f7;
+    font-family: Dotum, 돋움, Helvetica, sans-serif;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto; /*위아래의 여백을 없애고 좌우 여백값을 자동으로 같게함*/
+    padding: 106px 0 53px;
+}
+.logo{
+    cursor: pointer;
+    text-decoration:none;
+    font-size: 60px;
+    color : rgb(97, 95, 95);
+    font-weight: bold;
+    opacity: 0.7;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 auto;
+    opacity: 0.7;
+    padding: 0 0 60px;
+}
+.hi-user .ps-box{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 468px;
+    height: 108px;
+    padding: 10px 10px 10px 12px;/*위 오른 아래 왼*/
+    border: solid 1px #949090  ;
+    background:white;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.hi-user .ps-box .hi-message{
+    
+    margin: 0 auto;
+    margin-top: 25px;
+    width : 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    opacity: 1;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+}
+.user-info .ps-box{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: solid 2px #949090 ;
+    background:#f5f6f7;
+    box-sizing: border-box;
+    
+}
+
+.logout-btn{
+    cursor: pointer;
+    width: 100%;
+    height: 51px;
+    font-size: 20px;
+    font-weight: bold;
+    color : white;
+    background-color: rgb(97, 95, 95);
+    border : none;
+    margin-bottom: 30px;
+}
+.user-info-btn{
+    float: right; /*float은 float 속성은 묶음 태그(block element) 만 적용할 수 있다. 묶음 태그 : <div> <p> <ol> <ul> <table> <img> 등*/
+    outline: none; /*input클릭시 outline 생성을 없애준다*/
+    font-weight: bold;
+    cursor: pointer;
+    width: 130px;
+    border: none;
+    background-color: #f5f6f7;
+    margin-bottom: 30px;
+}
