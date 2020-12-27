@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final</title>
+    <link rel = "stylesheet" href = "final.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+</head>
+<body>
+    <div class="wrap">
+        <div class = "header" role = "banner">
+            <h1>
+                <a href = "final.html" class="logo">
+                    <span class="service-name">LOGIN SERVICE</span>
+                </a>
+            </h1>
+        </div>
+        <div class="contents">
+            <div class="hi-user">
+                <span class = "ps-box">
+                    <h3 class="hi-message infinite"></h3>  
+                </span>
+            </div>
+            <div class = "logout">
+                <input class="logout-btn" type="button" value="로그아웃" onclick="logOutHandling()"/>
+            </div>
+            <div class="user-info">
+                <div class= "btn-area">
+                    <input class= "user-info-btn" type="button" value="사용자 정보 보기" onclick="showUserInfo()"/>
+                </div>
+                <div class= "user-info-contents" style="display: none;">
+                    <div class="user-email">
+                        <h3 class="email-label">
+                            <label>이메일 주소</label>
+                        </h3>
+                        <span class="ps-box">
+                            <p class="email"></p>
+                        </span>
+                    </div>
+                    <div class="user-id">
+                        <h3 class="id-label">
+                            <label>아이디</label>
+                        </h3>
+                        <span class="ps-box">
+                            <p class="id"></p>
+                        </span>
+                    </div>
+                    <div class="user-pwd">
+                        <h3 class="pwd-label">
+                            <label>비밀번호</label>
+                        </h3>
+                        <span class="ps-box">
+                            <p class="pwd"></p>
+                        </span>
+                    </div>
+                    <div class="user-name">
+                        <h3 class="name-label">
+                            <label>이름</label>
+                        </h3>
+                        <span class="ps-box">
+                            <p class="name"></p>
+                        </span>
+                    </div>
+                    <div class="user-birth">
+                        <h3 class="birth-label">
+                            <label>생년월일</label>
+                        </h3>
+                        <span class="ps-box">
+                            <p class="birth"></p>
+                        </span>
+                    </div>
+                    <div class="user-gender">
+                        <h3 class="gender-label">
+                            <label>성별</label>
+                        </h3>
+                        <span class="ps-box">
+                            <p class="gender"></p>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src = "final.js"></script>
+</body>
+
+</html>
