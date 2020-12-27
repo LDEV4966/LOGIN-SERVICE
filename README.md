@@ -11,12 +11,14 @@
 
 
 -----------------------------------
+## gh-pages URL :  
+
+<a href = "https://leeseungmin4966.github.io/LOGIN-SERVICE/login.html">click here!</a>
 
 ### component :
   
 > Project is composed of 4 directory.
 > > ( **signUp , finduserInfo , final** ) are located in (**login**) subdirectory
-
 
 ### details :
 
